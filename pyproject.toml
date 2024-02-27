@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pixiv-api"
+version = "0.1.0"
+description = ""
+authors = ["yxSakana <2956823347@qq.com>"]
+readme = "README.md"
+packages = [{include = "pixiv_api", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+ffmpeg-python = "^0.2.0"
+pytest = "^8.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
